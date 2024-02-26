@@ -19,9 +19,8 @@ ontology = parser.parseFile("pizza.owl")
 
 print("Loaded the ontology!")
 
-# IMPORTANT: the algorithm from the lecture assumes conjunctions to always be over two concepts
-# Ontologies in OWL can however have conjunctions over an arbitrary number of concpets.
-# The following command changes all conjunctions so that they have at most two conjuncts
+# Sometimes it can be convenient to have only binary conjunctions in your ontology.
+# The following method call transforms all conjunctions to binary ones.
 print("Converting to binary conjunctions")
 gateway.convertToBinaryConjunctions(ontology)
 
