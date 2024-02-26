@@ -1,6 +1,6 @@
-package nl.vu.kai.dl4python
+package nl.vu.kai.dl_lib
 
-import nl.vu.kai.dl4python.datatypes._
+import nl.vu.kai.dl_lib.datatypes._
 
 object ELFactory {
 

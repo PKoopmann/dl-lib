@@ -87,7 +87,7 @@
                     </descriptorRefs>
                     <archive>
                         <manifest>
-                            <mainClass>nl.vu.kai.dl4python.DL4PythonEntryPoint</mainClass>
+                            <mainClass>nl.vu.kai.dl_lib.DLLibEntryPoint</mainClass>
                         </manifest>
                     </archive>
                 </configuration>

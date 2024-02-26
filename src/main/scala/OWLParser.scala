@@ -1,5 +1,5 @@
 
-package nl.vu.kai.dl4python.owlapi
+package nl.vu.kai.dl_lib.owlapi
 
 import java.io.File
 import java.net.URL
@@ -14,13 +14,13 @@ import org.semanticweb.owlapi.model._
 import org.semanticweb.owlapi.model.parameters.Imports
 import org.semanticweb.owlapi.vocab.SKOSVocabulary
 
-import nl.vu.kai.dl4python.datatypes._
+import nl.vu.kai.dl_lib.datatypes._
 
 
 
 object OntologyPrinter { 
 
-  import nl.vu.kai.dl4python.formatting.SimpleDLFormatter
+  import nl.vu.kai.dl_lib.formatting.SimpleDLFormatter
     
 
   def main(args: Array[String]) = { 

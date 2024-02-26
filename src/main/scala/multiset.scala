@@ -1,4 +1,4 @@
-package nl.vu.kai.dl4python.tools
+package nl.vu.kai.dl_lib.tools
 
 import scala.collection.mutable.HashMap
 

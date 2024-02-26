@@ -1,7 +1,7 @@
-package nl.vu.kai.dl4python.reasoning
+package nl.vu.kai.dl_lib.reasoning
 
-import nl.vu.kai.dl4python.datatypes.{Concept, ConceptName, Ontology}
-import nl.vu.kai.dl4python.owlapi.{OWLApiConverter, OWLExporter}
+import nl.vu.kai.dl_lib.datatypes.{Concept, ConceptName, Ontology}
+import nl.vu.kai.dl_lib.owlapi.{OWLApiConverter, OWLExporter}
 import org.semanticweb.HermiT
 import org.semanticweb.elk
 import org.semanticweb.elk.reasoner.ReasonerFactory

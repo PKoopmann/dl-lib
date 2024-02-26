@@ -1,4 +1,4 @@
-package nl.vu.kai.dl4python.owlapi
+package nl.vu.kai.dl_lib.owlapi
 
 import java.io.File
 import java.net.URL
@@ -7,7 +7,7 @@ import com.typesafe.scalalogging.Logger
 import org.semanticweb.owlapi.apibinding.OWLManager
 import org.semanticweb.owlapi.io._
 import org.semanticweb.owlapi.model._
-import nl.vu.kai.dl4python.datatypes.{Annotation, LabelAnnotation, _}
+import nl.vu.kai.dl_lib.datatypes.{Annotation, LabelAnnotation, _}
 
 class OWLExporter(simplifiedNames: Boolean = true) {
 //  implicit val (logger, formatter, appender) = ZeroLoggerFactory.newLogger(this)

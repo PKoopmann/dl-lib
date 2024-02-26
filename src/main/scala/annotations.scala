@@ -1,4 +1,4 @@
-package nl.vu.kai.dl4python.datatypes
+package nl.vu.kai.dl_lib.datatypes
 
 trait Annotation
 case class LabelAnnotation(name: Name, label: String, language: String) extends Annotation

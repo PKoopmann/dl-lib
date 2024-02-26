@@ -1,4 +1,4 @@
-package nl.vu.kai.dl4python.formatting
+package nl.vu.kai.dl_lib.formatting
 
 import java.io.File
 
@@ -6,8 +6,8 @@ import scala.collection.JavaConversions._
 
 import org.semanticweb.owlapi.model._
 
-import nl.vu.kai.dl4python.datatypes._
-import nl.vu.kai.dl4python.owlapi.{ OWLParser, OWLApiConverter }
+import nl.vu.kai.dl_lib.datatypes._
+import nl.vu.kai.dl_lib.owlapi.{ OWLParser, OWLApiConverter }
 
 
 trait Formatter[A] { 

@@ -1,19 +1,19 @@
-package nl.vu.kai.dl4python;
+package nl.vu.kai.dl_lib;
 
-import nl.vu.kai.dl4python.datatypes.DLHelpers$;
-import nl.vu.kai.dl4python.datatypes.Ontology;
-import nl.vu.kai.dl4python.owlapi.OWLParser;
-import nl.vu.kai.dl4python.owlapi.OWLExporter;
-import nl.vu.kai.dl4python.owlapi.OWLApiConverter;
-import nl.vu.kai.dl4python.formatting.SimpleDLFormatterCl;
-import nl.vu.kai.dl4python.reasoning.DLReasoner;
-import nl.vu.kai.dl4python.reasoning.DLReasoners;
+import nl.vu.kai.dl_lib.datatypes.DLHelpers$;
+import nl.vu.kai.dl_lib.datatypes.Ontology;
+import nl.vu.kai.dl_lib.owlapi.OWLParser;
+import nl.vu.kai.dl_lib.owlapi.OWLExporter;
+import nl.vu.kai.dl_lib.owlapi.OWLApiConverter;
+import nl.vu.kai.dl_lib.formatting.SimpleDLFormatterCl;
+import nl.vu.kai.dl_lib.reasoning.DLReasoner;
+import nl.vu.kai.dl_lib.reasoning.DLReasoners;
 import py4j.GatewayServer;
 import scala.Option;
 
-public class DL4PythonEntryPoint {
+public class DLLibEntryPoint {
 
-    public DL4PythonEntryPoint() {
+    public DLLibEntryPoint() {
     }
 
     public OWLParser getOWLParser() {
@@ -56,10 +56,10 @@ public class DL4PythonEntryPoint {
 
         GatewayServer gatewayServer;
         if(portNumber==-1)
-            gatewayServer = new GatewayServer(new nl.vu.kai.dl4python.DL4PythonEntryPoint());
+            gatewayServer = new GatewayServer(new nl.vu.kai.dl_lib.DLLibEntryPoint());
         else
-            gatewayServer = new GatewayServer(new nl.vu.kai.dl4python.DL4PythonEntryPoint(), portNumber);
+            gatewayServer = new GatewayServer(new nl.vu.kai.dl_lib.DLLibEntryPoint(), portNumber);
         gatewayServer.start();
-        System.out.println("Gateway server for DL4Python started");
+        System.out.println("Gateway server for DL-Lib started");
     }
 }

@@ -1,13 +1,13 @@
-package nl.vu.kai.dl4python.parsing
+package nl.vu.kai.dl_lib.parsing
 
 import java.io.File
 import java.net.URL
 import scala.io.Source
 import scala.util.parsing.combinator.syntactical._
 import scala.util.parsing.combinator.RegexParsers
-import nl.vu.kai.dl4python.datatypes._
-import nl.vu.kai.dl4python.formatting.SimpleDLFormatter
-import nl.vu.kai.dl4python.owlapi.OWLExporter
+import nl.vu.kai.dl_lib.datatypes._
+import nl.vu.kai.dl_lib.formatting.SimpleDLFormatter
+import nl.vu.kai.dl_lib.owlapi.OWLExporter
 import org.semanticweb.owlapi.apibinding.OWLManager
 import org.semanticweb.owlapi.expression.ShortFormEntityChecker
 import org.semanticweb.owlapi.model.{OWLAxiom, PrefixManager}

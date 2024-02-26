@@ -1,7 +1,7 @@
-package nl.vu.kai.dl4python.filtering
+package nl.vu.kai.dl_lib.filtering
 
 import com.typesafe.scalalogging.Logger
-import nl.vu.kai.dl4python.formatting.SimpleOWLFormatter
+import nl.vu.kai.dl_lib.formatting.SimpleOWLFormatter
 import org.semanticweb.owlapi.model.parameters.Imports
 import org.semanticweb.owlapi.model.{AxiomType, OWLAxiom, OWLClass, OWLClassExpression, OWLDisjointClassesAxiom, OWLEquivalentClassesAxiom, OWLObjectAllValuesFrom, OWLObjectComplementOf, OWLObjectIntersectionOf, OWLObjectOneOf, OWLObjectProperty, OWLObjectPropertyDomainAxiom, OWLObjectPropertyRangeAxiom, OWLObjectSomeValuesFrom, OWLObjectUnionOf, OWLOntology, OWLOntologyManager, OWLSubClassOfAxiom, OWLSubClassOfAxiomSetShortCut, OWLSubClassOfAxiomShortCut, OWLSubPropertyAxiom}
 

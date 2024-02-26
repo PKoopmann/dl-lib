@@ -1,6 +1,6 @@
-import nl.vu.kai.dl4python.datatypes.{RoleChainAxiom, RoleInclusion, TransitiveRoleAxiom}
-import nl.vu.kai.dl4python.filtering.ELTBoxFilter
-import nl.vu.kai.dl4python.owlapi.{OWLApiConverter, OWLParser}
+import nl.vu.kai.dl_lib.datatypes.{RoleChainAxiom, RoleInclusion, TransitiveRoleAxiom}
+import nl.vu.kai.dl_lib.filtering.ELTBoxFilter
+import nl.vu.kai.dl_lib.owlapi.{OWLApiConverter, OWLParser}
 import org.semanticweb.owlapi.apibinding.OWLManager
 
 import java.io.File

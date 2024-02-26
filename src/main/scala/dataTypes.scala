@@ -1,10 +1,10 @@
-package nl.vu.kai.dl4python.datatypes
+package nl.vu.kai.dl_lib.datatypes
 
 //import com.dongxiguo.fastring.Fastring.Implicits._
 
 
 import com.typesafe.scalalogging.Logger
-import nl.vu.kai.dl4python.tools.MultiSet
+import nl.vu.kai.dl_lib.tools.MultiSet
 import org.semanticweb.owlapi.model.OWLAxiom
 
 import scala.collection.JavaConverters._

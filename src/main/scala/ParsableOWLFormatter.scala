@@ -1,6 +1,6 @@
-package nl.vu.kai.dl4python.formatting
+package nl.vu.kai.dl_lib.formatting
 
-import nl.vu.kai.dl4python.owlapi.OWLApiConverter
+import nl.vu.kai.dl_lib.owlapi.OWLApiConverter
 import org.semanticweb.owlapi.model.OWLAxiom
 
 class ParsableOWLFormatter extends Formatter[OWLAxiom] {
