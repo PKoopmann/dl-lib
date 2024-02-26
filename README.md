@@ -15,16 +15,16 @@ You will need maven to compile the project (https://maven.apache.org), and Java 
 
 Just run the following line in command line:
 
-> mvn install
+    mvn install
 
 # Usage from Python
 
 You will need to run a gateway server to be able to communicate with the library from Python. This is done as follows:
 
-> java -jar target/dl-lib-0.1.5-jar-with-dependencies.jar
+    java -jar target/dl-lib-0.1.5-jar-with-dependencies.jar
 
 While a proper documentation of the library is not available yet, you can consult the example file (example.py) to see how the main functionalities are used from python.
 
 To test the example, download the pizza ontology and put it in the folder where you run the gateway server. Then run the example file as follows:
 
-> ./example.py
+    ./example.py
