@@ -9,7 +9,8 @@ The library is implemented with a usage from Python and Scala in mind.
 
 # Requirements
 
-You will need maven to compile the project (https://maven.apache.org), and Java 11 (check https://sdkman.io for an easy way to manage multiple java versions on your system).
+You will need maven to compile the project (https://maven.apache.org), and Java 11 (check https://sdkman.io for an easy way to manage multiple java versions on your system). 
+To use it from Python, you will need py4j, which can be conveniently installed using pip.
 
 # Installation
 
